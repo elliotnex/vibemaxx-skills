@@ -1,0 +1,59 @@
+{
+  "$schema": "./catalog.schema.json",
+  "skills": [
+    {
+      "id": "builder",
+      "name": "Builder",
+      "description": "Implementation-focused agent for features, scaffolding, and small iterative diffs in the active project.",
+      "category": "Core Agents",
+      "tags": ["implementation", "features"],
+      "author": "VibeMaxx",
+      "version": "1.0.0"
+    },
+    {
+      "id": "troubleshooter",
+      "name": "Troubleshooter",
+      "description": "Debug and diagnose failures using logs, reproduction steps, and environment checks before proposing fixes.",
+      "category": "Core Agents",
+      "tags": ["debugging", "diagnosis"],
+      "author": "VibeMaxx",
+      "version": "1.0.0"
+    },
+    {
+      "id": "bug-finder",
+      "name": "Bug Finder",
+      "description": "Hunt regressions, edge cases, and failing tests; strengthen coverage around broken behavior.",
+      "category": "Quality",
+      "tags": ["testing", "regressions"],
+      "author": "VibeMaxx",
+      "version": "1.0.0"
+    },
+    {
+      "id": "reviewer",
+      "name": "Reviewer",
+      "description": "Code review agent for correctness, clarity, and safe suggestions without scope creep.",
+      "category": "Quality",
+      "tags": ["code-review", "correctness"],
+      "author": "VibeMaxx",
+      "version": "1.0.0"
+    },
+    {
+      "id": "refactor",
+      "name": "Refactor",
+      "description": "Improve structure, naming, and maintainability without changing observable behavior unless agreed.",
+      "category": "Quality",
+      "tags": ["refactoring", "maintainability"],
+      "author": "VibeMaxx",
+      "version": "1.0.0"
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "description": "Security-focused agent for threat modeling, auth review, dependency risk, and safe handling of secrets.",
+      "category": "Security",
+      "tags": ["security", "threat-modeling"],
+      "author": "VibeMaxx",
+      "version": "1.0.0"
+    }
+  ]
+}
