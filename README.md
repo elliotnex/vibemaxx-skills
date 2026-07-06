@@ -1,6 +1,6 @@
 # VibeMaxx Skills
 
-The public skills catalog for [VibeMaxx](https://github.com/elliotskise/vibemaxx). The desktop app's Skills panel reads this repo directly — no app update is needed to publish new skills.
+The public skills catalog for [VibeMaxx](https://github.com/elliotnex/vibemaxx). The desktop app's Skills panel reads this repo directly — no app update is needed to publish new skills.
 
 Skills are focused instruction sets that make coding agents better at a specific job: building features, hunting bugs, reviewing security, and more. Installing one from the Skills panel drops it into your project's `.claude/skills/` directory, where agent CLIs pick it up automatically.
 
